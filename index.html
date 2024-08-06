@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<style>
+    table {
+            width: 60%; 
+            border-collapse: collapse; 
+            margin-bottom: 30px; 
+        }
+
+        th, td {
+            border: 2px solid ; 
+            padding: 2px; 
+            text-align: left; 
+            background-color: #89aa90;
+            
+        }
+  
+</style>
+
+<body>
+    
+    <table>
+        <thead>
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+         </tr>
+         <tr>
+            <td style="text-align: center;">4</td>
+            <td style="text-align: center;">5</td>
+            <td style="text-align: center;">6</td>
+         </tr>
+         <tr>
+            <td style="text-align: right;">7</td>
+            <td style="text-align: right;">8</td>
+            <td style="text-align: right;">9</td>
+         </tr>
+        </thead>
+    </table>     
+    
+    <table>
+        <thead>
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+         </tr>
+         <tr>
+            <td colspan="3" style="text-align: center;">4</td>
+         </tr>
+         <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+         </tr>
+     </thead>
+    </table>
+
+
+    <table>
+        <thead>
+         <tr>
+            <td>1</td>
+            <td>2</td>
+            <td rowspan="3" style="text-align: center;">3</td>
+         </tr>
+         <tr>
+            <td colspan="3" style="text-align: center;">4</td>
+         </tr>
+         <tr>
+            <td>7</td>
+            <td>8</td>
+         </tr>
+     </thead>
+    </table>
+
+    
+
+</body>
+</html>
